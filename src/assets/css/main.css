@@ -212,7 +212,7 @@ table {
 
 html {
   font-size: 62.5%;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothscrolling: antialiased;
 }
 
 body {
@@ -1360,6 +1360,11 @@ ul#nav li a {
   text-decoration: none;
   text-align: left;
   color: #fff;
+  font-weight: 600;
+  background-color: #86c232;
+  border: 2px solid #61892f;
+  margin-right: 10px;
+  border-radius: 8px;
 
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
@@ -1372,7 +1377,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #f06000;
+  color: blue;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1411,10 +1416,10 @@ ul#nav li.current a {
   border-radius: 100%;
 }
 #about .contact-details {
-  width: 41.66667%;
+  width: 50%;
 }
 #about .download {
-  width: 58.33333%;
+  width: 50%;
   padding-top: 6px;
 }
 #about .main-col {
@@ -2119,6 +2124,7 @@ call-to-action .button {
   margin-bottom: 6px;
 }
 #contact h1 span {
+  min-width: 160px;
   display: none;
 }
 #contact h1:before {
@@ -2389,10 +2395,10 @@ footer .social-links li:first-child {
     margin-left: 12px;
   }
   #about .contact-details {
-    width: 50%;
+    width: 60%;
   }
   #about .download {
-    width: 50%;
+    width: 40%;
   }
 
   /* Resume Section

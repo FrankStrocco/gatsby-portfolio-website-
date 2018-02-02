@@ -10,7 +10,7 @@ import {
 const Banner = () => (
   <div className="row banner">
     <div className="banner-text">
-      <h1>Frank STROCCO</h1>
+      <h1>Frank Strocco</h1>
       <h3>
         Full Stack <span>Web Developer</span>, specializing in &nbsp;
         <span>Ruby on Rails</span> and <span>React</span>{" "}

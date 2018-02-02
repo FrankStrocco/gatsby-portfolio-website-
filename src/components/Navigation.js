@@ -6,7 +6,7 @@ const Navigation = () => (
     <ul id="nav" className="nav">
       <li className="current">
         <a className="smoothscroll" href="#home">
-          <button>Home</button>
+          Home
         </a>
       </li>
       <li>
