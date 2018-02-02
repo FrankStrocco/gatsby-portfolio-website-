@@ -10,12 +10,11 @@ import {
 const Banner = () => (
   <div className="row banner">
     <div className="banner-text">
-      <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
+      <h1>Frank STROCCO</h1>
       <h3>
-        I'm a Manila based <span>graphic designer</span>,
-        <span>illustrator</span> and <span>webdesigner</span> creating awesome
-        and effective visual identities for companies of all sizes around the
-        globe. Let's
+        Full Stack <span>Web Developer</span>, specializing in &nbsp;
+        <span>Ruby on Rails</span> and <span>React</span>{" "}
+        <p>I'm Passionate about creating great, clean looking websites.</p>
         <a className="smoothscroll" href="#about">
           start scrolling
         </a>
