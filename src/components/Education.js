@@ -19,13 +19,8 @@ const Education = () => (
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede
-            mollis pretium.
+            Regular engilish will be nice to stop google from translating this
+            site from latin everytime.
           </p>
         </div>
       </div>
