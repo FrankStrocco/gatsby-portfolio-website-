@@ -4,19 +4,19 @@
   "version": "1.0.0",
   "author": "Aman Mittal <amandeepmittal@live.com>",
   "dependencies": {
-    "gatsby": "^1.9.145",
-    "gatsby-link": "^1.6.32",
-    "gatsby-plugin-google-analytics": "^1.0.12",
+    "gatsby": "^1.9.222",
+    "gatsby-link": "^1.6.38",
+    "gatsby-plugin-google-analytics": "^1.0.20",
     "gatsby-plugin-google-fonts": "0.0.3",
     "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sass": "^1.0.14",
-    "gatsby-plugin-sharp": "^1.6.21",
+    "gatsby-plugin-sass": "^1.0.18",
+    "gatsby-plugin-sharp": "^1.6.37",
     "gatsby-plugin-typography": "1.7.10",
-    "gatsby-remark-copy-linked-files": "^1.5.9",
-    "gatsby-remark-images": "^1.5.33",
-    "gatsby-source-filesystem": "^1.5.8",
-    "gatsby-transformer-remark": "^1.7.21",
-    "gatsby-transformer-sharp": "^1.6.14",
+    "gatsby-remark-copy-linked-files": "^1.5.30",
+    "gatsby-remark-images": "^1.5.53",
+    "gatsby-source-filesystem": "^1.5.25",
+    "gatsby-transformer-remark": "^1.7.34",
+    "gatsby-transformer-sharp": "^1.6.22",
     "react-icons": "2.2.7",
     "react-slick": "0.16.0",
     "slick-carousel": "1.8.1",
@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "gh-pages": "^1.1.0",
-    "prettier": "^1.9.2"
+    "prettier": "^1.11.1"
   }
 }

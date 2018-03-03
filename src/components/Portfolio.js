@@ -22,8 +22,11 @@ const Portfolio = () => (
         >
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a href="#modal-01" title="">
-                <img alt="" src={Coffee} />
+              <a
+                href="https://lennd.github.io/marketing/pricing/?selectedKind=Pricing&selectedStory=Feature%20Item&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel"
+                title="feature items"
+              >
+                <img alt="" />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>Coffee</h5>

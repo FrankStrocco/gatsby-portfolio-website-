@@ -2462,6 +2462,7 @@ footer .social-links li:first-child {
     height: 48px;
     text-align: left;
     background-color: #cc5200;
+    border-radius: 5px;
     position: relative;
     border: none;
     float: right;
@@ -2479,6 +2480,7 @@ footer .social-links li:first-child {
   #nav-wrap > a:after {
     position: absolute;
     border: 2px solid #fff;
+    border-radius: 5px;
     top: 35%;
     left: 25%;
     right: 25%;
@@ -2501,7 +2503,6 @@ footer .social-links li:first-child {
     clear: both;
     width: auto;
     float: right;
-
     position: relative;
     top: 12px;
     right: 0;
@@ -2510,9 +2511,10 @@ footer .social-links li:first-child {
   /* display menu panels */
   #nav-wrap:target > ul#nav {
     display: block;
-    padding: 30px 20px 48px 20px;
+    padding: 0px 20px 48px 20px;
     background: #1f2024;
-    margin: 0 30px;
+    background-color: transparent;
+    margin: 0;
     clear: both;
   }
 
@@ -2522,17 +2524,20 @@ footer .social-links li:first-child {
     margin: 0 auto;
     padding: 0 4%;
     text-align: left;
-    border-bottom: 1px solid #2d2e34;
+    border-color: transparent;
     border-bottom-style: dotted;
   }
 
   ul#nav li a {
     display: block;
     margin: 0;
-    padding: 0;
-    margin: 12px 0;
+    text-align: center;
+    padding: -4px 2px;
+    margin: 8px 0;
+    height: 32px;
     line-height: 16px; /* reset line-height from 48px */
-    border: none;
+    border: 2px solid #61892f;
+    border-radius: 7px;
   }
 
   /* Header Styles

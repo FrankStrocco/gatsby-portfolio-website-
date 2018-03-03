@@ -18,10 +18,7 @@ const Education = () => (
             <em className="date">April 2007</em>
           </p>
 
-          <p>
-            Regular engilish will be nice to stop google from translating this
-            site from latin everytime.
-          </p>
+          <p>temp</p>
         </div>
       </div>
 
