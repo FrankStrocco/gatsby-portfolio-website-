@@ -2466,11 +2466,9 @@ footer .social-links li:first-child {
     position: relative;
     border: none;
     float: right;
-
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
-
     position: relative;
     top: 0px;
     right: 30px;
@@ -2511,7 +2509,7 @@ footer .social-links li:first-child {
   /* display menu panels */
   #nav-wrap:target > ul#nav {
     display: block;
-    padding: 0px 20px 48px 20px;
+    padding: 0px 15px 48px 15px;
     background: #1f2024;
     background-color: transparent;
     margin: 0;
@@ -2522,7 +2520,7 @@ footer .social-links li:first-child {
     display: block;
     height: auto;
     margin: 0 auto;
-    padding: 0 4%;
+    padding: 0 0;
     text-align: left;
     border-color: transparent;
     border-bottom-style: dotted;
@@ -2533,7 +2531,7 @@ footer .social-links li:first-child {
     margin: 0;
     text-align: center;
     padding: -4px 2px;
-    margin: 8px 0;
+    margin: 2px 0;
     height: 32px;
     line-height: 16px; /* reset line-height from 48px */
     border: 2px solid #61892f;
@@ -2754,9 +2752,21 @@ footer .social-links li:first-child {
 @media only screen and (max-width: 480px) {
   /* mobile navigation
  -------------------------------------------------------------------- */
+  ul#nav li a {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: -4px 2px;
+    margin: 2px 0;
+    height: 32px;
+    line-height: 16px; /* reset line-height from 48px */
+    border: 2px solid #61892f;
+    border-radius: 7px;
+  }
+
   #nav-wrap ul#nav {
-    width: auto;
-    float: none;
+    width: 170px;
+    float: right;
   }
 
   /* header styles

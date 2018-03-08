@@ -16,41 +16,9 @@ const Banner = () => (
         <span>Ruby on Rails</span> and <span>React</span>{" "}
         <p>I'm Passionate about creating great, clean looking websites.</p>
         <a className="smoothscroll" href="#about">
-          start scrolling
+          start scrolling and learn more about me.
         </a>
-        and learn more
-        <a className="smoothscroll" href="#about">
-          about me
-        </a>.
       </h3>
-      <hr />
-      <ul className="social">
-        <li>
-          <a href="#">
-            <FaFacebookSquare />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaTwitterSquare />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaGooglePlusSquare />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaInstagram />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FaGithubSquare />
-          </a>
-        </li>
-      </ul>
     </div>
   </div>
 );

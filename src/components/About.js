@@ -21,12 +21,11 @@ const About = () => (
           <div className="columns contact-details">
             <h2>Contact Details</h2>
             <p className="address">
-              <span>Frank Strocco</span>
-              <br />
-              <span>
-                <br /> San Diego, CA 92117 US
-              </span>
-              <span>frank.strocco@gmail.com</span>
+              <ul>
+                <li>Frank Strocco</li>
+                <li> San Diego, CA 92117 US</li>
+                <li>frank.strocco@gmail.com</li>
+              </ul>
             </p>
           </div>
           <div className="columns download">
