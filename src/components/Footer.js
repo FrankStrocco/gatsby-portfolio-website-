@@ -13,22 +13,7 @@ const Footer = () => (
       <div className="twelve columns">
         <ul className="social-links">
           <li>
-            <a href="#">
-              <FaFacebook />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FaTwitter />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FaGithub />
-            </a>
-          </li>
-          <li>
-            <a href="#">
+            <a href="https://github.com/FrankStrocco">
               <FaGithub />
             </a>
           </li>
